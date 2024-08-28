@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    min-height: 100vh;
+    background: url('Untitled\ design.png') no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 1px; 
+}
+
+header {
+    position: relative; 
+    width: 100%;
+}
+h1{
+    top: 10px;
+    text-align: center;
+    font-size: 60px;
+    color:rgb(255, 255, 255);
+}
+img {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 170px; 
+    margin: 5px; 
+    
+     
+}
+
+.navbar {
+margin-right: 10px;
+background-color:rgb(63, 60, 60);
+margin-top: 20px;
+margin-left: 140px;
+height: 50px;
+width: 63.5%;
+border: px solid rgb(185, 178, 178);
+
+
+}
+.navbar .container {
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: px ;
+    padding: 0;
+    max-width: 1000px;
+    height: 100%;
+    
+
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    font-size: 4px;
+    margin-right: 20px;
+    padding: 0px;
+}
+
+.navbar .nav-links li {
+    margin: 0 50px;
+    font-size: 0px;
+    
+   
+}
+
+.navbar .nav-links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+
+.navbar .nav-links a:hover {
+    text-decoration: underline;
+    color: red;
+}
+.signup{
+        width: 420px;
+        background: rgb(43, 40, 40);
+        color: aliceblue;
+        border-radius: 10px;
+        padding: 17px;
+        margin: 70px;
+        height: 400px;
+        
+    }
+
+    .signup h1 {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ccc3c3;
+    }
+    .signup .input-boxx {
+        width: 100%;
+        height: 40px;
+        position: relative;
+        margin: 20px 0;
+    }
+    .input-boxx input {
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        border: 2px solid rgba(249, 249, 249, 0.662);
+        border-radius: 40px;
+        font-size: 16px;
+        color: aliceblue;
+        padding: 0 45px 0 20px;
+    }
+    .input-boxx::placeholder {
+        color: aliceblue;
+    }
+    .input-boxx i {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .signup .username{
+        width: 100%;
+        height: 50px;
+        position: relative;
+        margin: 30px 0;
+    }
+     .username input{
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        border: 2px solid rgba(249, 249, 249, 0.662);
+        border-radius: 40px;
+        font-size: 16px;
+        color: aliceblue;
+        padding: 0 45px 0 20px;
+    }
+     .username i {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+     }
+
+   
+
+     .signup .password {
+        width: 100%;
+        height: 50px;
+        position: relative;
+        margin: 30px 0;
+     }
+
+    .password input {
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        border: 2px solid rgba(249, 249, 249, 0.662);
+        border-radius: 40px;
+        font-size: 16px;
+        color: aliceblue;
+        padding: 0 45px 0 20px;
+     }
+
+     .password i {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+     }
+
+     .button {
+        text-align: center;
+        width: 100%;
+        height: 45px;
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        background-color: #333;
+        color: aliceblue; 
+        cursor: pointer; 
+        margin: 15px 0; ;
+    }
+
+   
+    
+    .Login-link {
+        font-size: 18px;
+        text-align: center;
+        margin: 1px;
+    }
+
+    .Login-link p a {
+        color: aliceblue;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    
+    .Login-link p a:hover {
+        text-decoration: underline;
+    }
