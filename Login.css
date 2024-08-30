@@ -10,7 +10,7 @@ body {
     flex-direction: column; 
     align-items: center;
     min-height: 100vh;
-    background: url('Untitled\ design.png') no-repeat center center fixed;
+    background: url('bgg.png') no-repeat center center fixed;
     background-size: cover;
     padding-top: 1px; 
 }
@@ -81,7 +81,7 @@ border: px solid rgb(185, 178, 178);
 }
 
 .navbar .nav-links a:hover {
-    text-decoration: underline;
+    
     color: red;
 }
 
