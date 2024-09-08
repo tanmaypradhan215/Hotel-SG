@@ -9,7 +9,7 @@ body {
     flex-direction: column; 
     align-items: center;
     min-height: 100vh;
-    background: url('SRI\ GURU\ bg.png') no-repeat center center fixed;
+    background: url('SRI\ GURU\ \ bggggg.png') no-repeat center center fixed;
     background-size: cover;
     padding-top: 1px; 
 }
@@ -23,6 +23,7 @@ h1{
     text-align: center;
     font-size: 60px;
     color:rgb(248, 243, 243);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .logo-container {
@@ -42,7 +43,7 @@ h1{
     margin-left: 140px;
     height: 40px;
     width: 90.5%;
-    border: 0pxsolid rgb(185, 178, 178);
+    border: px solid rgb(185, 178, 178);
     
     }
     .navbar .container {
@@ -53,6 +54,7 @@ h1{
         padding: 0;
         max-width: 1000px;
         height: 100%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         
     
     }
@@ -114,43 +116,118 @@ h1{
         
     }
 .information {
-    margin: 30px;
+    
+    background-image: url(SRI\ GURU\ \ jfhdjfsh.png);
+    width: 1500px;
 }
     .information h1{
         font-size: 40px;
+        font-family: 'Courier New', Courier, monospace;
     }
     .information p{
         font-size: 20px;
-        color: rgb(246, 245, 239);
+        color: rgb(255, 217, 0);
         margin:  30px;
         text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
     }
-    .BS{
-        background-image: url(BS.png);
-        width: 1000px;
-        height: 500px;
-        display: flex;
-        background-size: cover;
-        margin: 30px;
-    }
-    .about-us{
-        background-image: url(SRI\ GURU\ about\ us.png);
-        width: 1500px;
+    .BS {
+        position: relative;
+        background-image: url(SRI\ GURU\ best\ selllerrrr.png);
+        width: 1515px;
         height: 700px;
         display: flex;
         background-size: cover;
-        margin: 80px;
+        text-align: left;
+        
     }
-    .about-us h1{
-        margin-top:  500px;
-       margin-left: 150px;
-    }
-
-    .about-us p{
-        margin-top: 470px;
-        margin-left: 250px;
-        font-size: 16px;
-    }
-
     
+    .BS h1{
+        margin:  170px 0;
+        padding: 0 60px;
+        font-size: 70px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+
+    .BS h2{
+        
+            position: absolute;
+            margin: 340px 0; 
+            left: 80px;    
+            color: rgb(255, 3, 3);
+            font-size: 40px;
+            padding: 30px 0;
+            font-family: 'Courier New', Courier, monospace;
+
+    }
+
+    .BS p{
+        position: absolute;
+        font-size: 20px;
+        color: rgb(255, 213, 0);
+        margin: 450px 0;
+        left: 80px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+        .about-us{
+            background-image: url(SRI\ GURU\ about\ usss.png);
+            width: 1500px;
+            height: 700px;
+            background-size: cover;
+            
+        }
+        .about-us h1{
+            margin-top:  270px;
+        margin-left: 620px;
+        white-space: nowrap;
+        font-family: 'Courier New', Courier, monospace;
+        
+        }
+
+        .about-us P{
+            margin-top: 40px;
+           margin-left: 900px;
+            font-size: 18px;
+            color: rgb(255, 230, 0);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+
+        .feedback {
+            background-image: url(SRI\ GURU\ feedback\ bg.png);
+            width: 1500px;
+            height: 700px;
+            background-size: cover;
+            background-position: center;
+            text-align: left;
+            padding-left: 60px; 
+            box-sizing: border-box;
+            color: white;
+        }
+        
+        .feedback h1 {
+            font-size: 17px; 
+            font-family: 'Courier New', Courier, monospace;
+            margin: 2px 0;
+            padding: 0; 
+            color: white;
+            text-align: left; 
+            
+        }
+        
+        .feedback p {
+            font-size: 14px;
+            line-height: 1.5; 
+            margin-top: 20px; 
+            color: rgb(255, 238, 0);
+            text-align: left; 
+        }
+        .feedback h2{
+            margin-top: 90px ;
+            font-size: 35px;
+            font-family: 'Courier New', Courier, monospace;
+            
+        }
+        
