@@ -9,7 +9,7 @@ body {
     flex-direction: column; 
     align-items: center;
     min-height: 100vh;
-    background: url('bgg.png') no-repeat center center fixed;
+    background: url('SRI\ GURU\ \ bggggg.png') no-repeat center center fixed;
     background-size: cover;
     padding-top: 1px; 
 }
@@ -22,10 +22,11 @@ h1{
     top: 10px;
     text-align: center;
     font-size: 60px;
-    color:rgb(255, 255, 255);
+    color:rgb(248, 243, 243);
+    font-family: 'Courier New', Courier, monospace;
 }
 
-img {
+.logo-container {
     position: absolute; 
     top: 0;
     left: 0;
@@ -36,26 +37,27 @@ img {
 }
 
 .navbar {
-    margin-right: 10px;
-    background-color:rgb(63, 60, 60);
+    margin-right: 100px;
+    background-color:transparent;
     margin-top: 20px;
     margin-left: 140px;
-    height: 50px;
-    width: 63.5%;
+    height: 45px;
+    width: 90.5%;
     border: px solid rgb(185, 178, 178);
+
+    
     
     }
     .navbar .container {
          display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: px ;
+        margin: 0 10px ;
         padding: 0;
-        max-width: 1000px;
+        max-width: 1100px;
         height: 100%;
-        
-    
-    }
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
     
     .navbar .nav-links {
         list-style: none;
@@ -65,12 +67,21 @@ img {
         padding: 0px;
     }
     
-    .navbar .nav-links li {
-        margin: 0 50px;
-        font-size: 0px;
+    
+        .navbar .nav-links li {
+            margin: 0 3px;
+            font-size: 10px;
+            border: 2px solid white; 
+            padding: 0 1px 0;
+          width: 250px;
+            border-radius: 10px; 
+            text-align: center;
+            background-color: rgb(2, 2, 2);
+        }
+        
         
        
-    }
+    
     
     .navbar .nav-links a {
         color: rgb(255, 255, 255);
@@ -81,9 +92,10 @@ img {
     }
     
     .navbar .nav-links a:hover {
-        
+       
         color: red;
     }
+
     .Contact-Us{
         width: 420px;
         background: rgb(43, 40, 40);
