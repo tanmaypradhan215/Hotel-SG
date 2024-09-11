@@ -9,7 +9,7 @@ body {
     flex-direction: column; 
     align-items: center;
     min-height: 100vh;
-   background-image: url(menuu\ bg.png);
+   background-color: rgb(252, 252, 251);
     background-size: cover;
     padding-top: 1px; 
 }
@@ -22,7 +22,7 @@ h1{
     top: 10px;
     text-align: center;
     font-size: 60px;
-    color:rgb(37, 33, 33);
+    color:rgb(255, 255, 255);
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -43,7 +43,7 @@ h1{
     margin-left: 140px;
     height: 45px;
     width: 90.5%;
-    border: px solid rgb(185, 178, 178);
+    border: px solid rgb(8, 8, 8);
 
     
     
@@ -71,7 +71,7 @@ h1{
         .navbar .nav-links li {
             margin: 0 3px;
             font-size: 10px;
-            border: 2px solid white; 
+            border: 2px solid rgb(10, 10, 10); 
             padding: 0 1px 0;
           width: 250px;
             border-radius: 10px; 
@@ -84,7 +84,7 @@ h1{
     
     
     .navbar .nav-links a {
-        color: rgb(255, 255, 255);
+        color: rgb(255, 254, 254);
         text-decoration: none;
         font-size: 30px;
         font-weight: 500;
@@ -97,18 +97,19 @@ h1{
     }
 
    .menu{
-    margin-left: -200px;
+    margin-left: -40px;
     margin-top: 100px;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(255, 253, 253);
-    border: 2px solid rgb(162, 156, 156);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(129, 127, 127);
     border-radius: 20px;
    }
 
     .vegfried-rice img{
     width: 15px;
     margin-top: 15px;
+    margin-left: 20px;
    }    
 
    .vfr-img img{
@@ -116,6 +117,43 @@ h1{
     height: 130px;
     border-radius: 20px;
     margin-left: 700px;
-    margin-top: -200px;
+    margin-top: -800px;
+    margin-right: 30px;
+   }
+
+   .rice h2{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: rgb(4, 4, 4);
+   }
+   .menu h3{
+    margin-top: -22px;
+    margin-left: 38px;
+   }
+   .menu h4{
+    margin-left: 35px;
+    margin-top: 10px;
+    color: rgb(236, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+   .menu p{
+    margin-left:30px ;
+    margin-top: 16px;
+    color: rgb(17, 16, 16);
+   }
+
+   .menu .button input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: -90px;
+    margin-left: 721px;
+    background-color: rgb(248, 255, 255);
+    margin-right: 10px;
+    color: rgb(20, 160, 20);
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
    }
    
