@@ -1,0 +1,43 @@
+body {
+    background-image: url(SRI\ GURU\ thank.png);
+    display: flex;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.h1 h1 {
+    color: rgb(250, 142, 0);
+    margin-top: 230px;
+    margin-left: 540px;
+}
+
+.h1 h2 {
+    color:  rgb(250, 100, 0);
+    margin-left: 540px;
+}
+
+.back {
+    position: absolute;
+    top: 390px; 
+    left: 550px; 
+   
+}
+
+.back a {
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 6px;
+    
+}
+
+
+.back a:hover{
+  
+    color: red;
+}
