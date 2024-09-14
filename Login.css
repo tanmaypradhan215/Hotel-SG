@@ -159,6 +159,15 @@ h1{
     color: aliceblue; 
     cursor: pointer; 
 }
+.button a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+.button a:hover{
+color: red;
+}
 
 .wrapper .remember {
     font-size: 14px;
